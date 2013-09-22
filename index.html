@@ -1,0 +1,10 @@
+---
+layout: default
+---
+        <p>Hey, I'm <strong>Matt</strong><!-- (vcard) -->.</p>
+        <p>I'm a <a href="http://www.eecs.umich.edu/eecs/undergraduate/ugcs/CS-Eng.html">computer science</a> student at the <a href="http://www.umich.edu">University of Michigan</a>.</p>
+        <p>If you'd like to get in touch, <a href="mailto:{{ .site.email }}">email me</a>.</p>
+
+        <ul>
+{{ range .site.posts }}            <li><h1><a href="{{ .url }}">{{ .title }}</a></h1></li>{{ end }}
+        </ul>

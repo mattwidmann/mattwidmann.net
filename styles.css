@@ -1,0 +1,149 @@
+/* Eric Meyer's reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif; /* Helvetica, or bust! */
+    background-color: #fafafa;
+    width: 35em;
+    margin: 0 auto;
+}
+
+header {
+    clear: both;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.95em 0;
+}
+
+header h1 {
+    float: left;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header h1 a {
+    padding: 0.2em 0.5em;
+    font-size: 1.75em;
+    color: #999;
+    text-decoration: none;
+    border: none;
+}
+
+header h1 a:hover {
+    text-decoration: none;
+}
+
+header h1 a strong {
+    color: #555;
+}
+
+nav {
+    float: right;
+    margin-top: 0.7em;
+    margin-left: 4em;
+    text-align: center;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 0.9em;
+}
+
+nav ul li a {
+    padding: 1.2em 0.75em 0.8em 0.75em;
+    text-transform: uppercase;
+    /* color: #888; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    /* background-color: #f4f4f4; */
+}
+
+nav ul .current {
+    background-color: #eee;
+    color: #000;
+}
+
+section#main {
+    clear: both;
+    margin: 2.5em 0;
+    font-size: 0.9em;
+}
+
+section#main p {
+    font-size: 1.2em;
+    margin: 1em;
+    line-height: 1.2em;
+}
+
+section#main ul {
+    margin: 1em 0 1em 0;
+}
+
+section#main ul li {
+    margin-top: 2em;
+    list-style-type: none;
+    margin: 0.75em 0.1em 0 0.1em;
+}
+
+section#main p.aside {
+    margin: 0 2.5em 0 1em;
+    padding: 1em;
+    background-color: #efefef;
+    font-size: 1em;
+}
+
+a {
+    color: rgb(65, 131, 196);
+    text-decoration: none;
+    /* border-bottom: 2px solid #ddd; */
+}
+
+a:hover {
+    /* background-color: #efefef; */
+    text-decoration: underline;
+    /* border-bottom: 2px solid #ccc; */
+}
+
+h2 {
+    margin: 0.6em 0;
+    font-size: 1.5em;
+    color: #555;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 0.25em 0 0.25em 0;
+    font-size: 1.25em;
+    color: #555;
+}
+
+footer {
+    display: block;
+    padding-top: 1em;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer p {
+    line-height: 1.5em;
+}
+
+/* footer p a { */
+/*     padding: 0.2em; */
+/*     color: #777; */
+/*     text-decoration: none; */
+/*     border-bottom: 2px solid #ddd; */
+/* } */
+
+/* footer p a:hover { */
+/*     background-color: #efefef; */
+/*     border-bottom: 2px solid #ccc; */
+/* } */
